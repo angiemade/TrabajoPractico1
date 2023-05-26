@@ -3,7 +3,7 @@
   padding: 0;
   display: grid; /*posicionamos los objetos que tenemos */
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px 1fr 1fr 1fr 80px ;
+  grid-template-rows: 130px 90px 1fr 1fr 80px ;
   grid-gap: 1.5rem; /* rem unidad de medida relativa*/
   grid-template-areas: 
   "cont_header cont_header cont_header"
@@ -18,9 +18,11 @@
 }
 .cont_menu{
   grid-area: cont_menu ;
+
 }
 .cont_content{
   grid-area: cont_content;
+  justify-content: center;
 }
 .cont_sideBar {
   grid-area: cont_sideBar;
@@ -29,5 +31,5 @@
   grid-area: cont_footer;
 }
 .bordes{
-  border: 3px solid black;
+  border: 2px solid black;
 }
