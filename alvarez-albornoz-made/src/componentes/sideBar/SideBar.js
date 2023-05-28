@@ -4,17 +4,17 @@ import "./sideBar.css"
 function Item({ nombre, vuelos }) {
     if (vuelos) {
 
-        return <li className="simbolo">{nombre} &#x1f5fa; </li>
+        return <li >{nombre} 🗺</li>
 
     }
-    return <li className="simbolo">{nombre}✘</li>
+    return <li >{nombre}✘</li>
 }
 
 
 function SideBar() {
     return (
         <section>
-            <h1 className="lista">Lista de Pasajeros a Bordo </h1>
+            <h1 className="lista">Lista de Pilotos </h1>
             <ul className="nombres">
                 <Item
 

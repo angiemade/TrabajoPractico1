@@ -1,23 +1,14 @@
 import React, { useState } from 'react'
 import './card.css'
-/*import foto from ".../assets/foto.png"*/
 
-/*function Foto ({ nombre, numFoto, num }) {
-    if (numFoto =num ) {
 
-return <li className="item">{nombre} ✓</li>
-
-}
-return <li className="item">{nombre} </li>
-}*/
-
-function Card({ name, about, job }) {
+function Card({ name, about, job, img1}) {
 
   return (
     <div className='card'>
       <div className='contenedor_imagen'>
         <div className='imagen'>
-          <img src="./foto.png" alt="" />
+          <img src={img1} alt="imagen1" />
         </div>
       </div>
       <div className='contenido'>

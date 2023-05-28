@@ -16,16 +16,15 @@ function App() {
         <Menu />
       </div>
       <div className="cont_content bordes">
-        <div>
-          <Content />
-        </div>
+        <Content />
       </div>
       <div className="cont_sideBar bordes">
         <SideBar />
       </div>
       <div className="cont_footer bordes">
-        <Footer/>
+        <Footer />
       </div>
+
     </div>
 
   );
